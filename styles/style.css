@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 1rem;
+    max-width: 25.5rem;
+}
+
+.login-part_header {
+    margin-top: 2.5rem;
+    font-size: 2rem;
+}
+
+.login-part_subtitle {
+    margin-top: 1.1rem;
+    color: gray;
+    text-align: center;
+}
+
+.login-part_country {
+    margin-top: 0.4375rem;
+    font-size: 1rem;
+    outline: none;
+    width: 100%;
+    height: 3.375rem;
+    border: 1px solid rgba(0 0 0 / 0.2);
+    border-radius: 10px;
+    padding: 0.625rem;
+    transition: all 0.2s;
+}
+
+.login-part_country:hover {
+    border-color: rgb(51,144,236);
+    color: rgb(51,144,236);
+}
+
+.login-part_phone {
+    position: relative;
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.login-part_label {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    color: gray;
+    font-size: 0.8rem;
+    background-color: white;
+}
+
+.other-margin {
+    margin-top: 1.25rem;
+}
+
+.login-part_check {
+    align-self: flex-start;
+    margin-top: 1.875rem;
+    margin-left: 1.25rem;
+    cursor: pointer;
+}
+
+.login-part_checkbox {
+    margin-right: 1.25rem;
+    width: 17px;
+    height: 17px;
+    vertical-align: center;
+}
+
+.next-btn {
+    display: none;
+    margin-top: 2.5rem;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(51,144,236);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.next-btn:hover {
+    filter: brightness(110%);
+    transition: all 0.2s;
+}
+
+#other-id {
+    position: relative;
+}
+
+#other-id:hover ~ #login-part_icon {
+    color: rgb(51,144,236);
+}
+
+#login-part_icon {
+    position: absolute;
+    right: 5%;
+    top: 45%;
+    font-size: 1.25rem;
+    color: gray;
+    cursor: pointer;
+}
+#login-part_iconn {
+    position: absolute;
+    right: 5%;
+    top: 45%;
+    font-size: 1.25rem;
+    color: gray;
+    cursor: pointer;
+}
+
+.qr-code {
+    margin-top: 2rem;
+    background-color: inherit;
+    border: none;
+    color: rgb(51,144,236);
+    letter-spacing: 0.5px;
+    font-size: 1.0625rem;
+    cursor: pointer;
+}
+
+.qrcode-container {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 1rem;
+    max-width: 25.5rem;
+}
+
+.phone-number {
+    margin-top: 2rem;
+    background-color: inherit;
+    border: none;
+    color: rgb(51,144,236);
+    letter-spacing: 0.5px;
+    font-size: 1.0625rem;
+    cursor: pointer;
+}
+
+.info-container {
+    margin-top: 1rem;
+    padding: 0 2.75rem;
+    list-style-type: none;
+}
+
+.info-container li {
+    padding: 0.5rem 0;
+}
+
+.qr-part_header {
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+
+.code-container {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 1rem;
+    max-width: 25.5rem;
+    text-align: center;
+}
+
+.verifyNumber {
+    margin-top: 3.4375rem;
+    font-size: 1.875rem;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+.edit-icon {
+    margin-left: 0.3125rem;
+    color: gray;
+    cursor: pointer;
+}
+
+.edit-icon:hover {
+    color: black;
+}
+
+.code-part-title {
+    margin-top: 0.625rem;
+    color: gray;
+}
+
+.select{
+    background: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(0 0 0 / 0.2);
+    border-radius: 7px;
+    padding: 0.8em;
+    width: 356px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.caret{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #000;
+    transition: 0.3s;
+}
+
+.caret-rotate{
+    transform: rotate(180deg);
+}
+
+
+.menu{
+    list-style: none;
+    padding: 0.2em 0.5em;
+    background: #fff;
+    border: 1px #fff solid;
+    line-height: 28px;
+    opacity: 0;
+}
+
+.navbar-nav .nav-link {
+    width: 367px;
+    margin-top: 0.4375rem;
+    font-size: 1rem;
+    outline: none;
+    height: 3.375rem;
+    border: 1px solid rgba(0 0 0 / 0.2);
+    border-radius: 10px;
+    padding: 0.625rem;
+    transition: all 0.2s;
+}
+
+.image{}
+
+
+.dropdown-toggle::after{
+    margin-left: 217px;
+}
